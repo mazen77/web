@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mazen Bassiso - Senior Webmaster & Media Kit</title>
+    <meta
+      name="description"
+      content="Mazen Bassiso is a senior webmaster and content creator in Riyadh building high-traffic websites, marketplaces, automations, and measurable brand collaborations."
+    >
+    <meta name="theme-color" content="#111315">
+    <meta property="og:title" content="Mazen Bassiso - Senior Webmaster">
+    <meta
+      property="og:description"
+      content="Resume, media kit, websites, audience insights, and a playable arcade game."
+    >
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Mazen Bassiso home">
+        <span class="brand-mark">MB</span>
+        <span class="brand-name" data-i18n="brand.short">Mazen</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#game" data-i18n="nav.game">Game</a>
+        <a href="#websites" data-i18n="nav.websites">Websites</a>
+        <a href="#media-kit" data-i18n="nav.media">Media Kit</a>
+        <a href="#insights" data-i18n="nav.insights">Insights</a>
+        <a href="#work" data-i18n="nav.work">Work</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="mini-link" href="mailto:mazen.bassiso@gmail.com" data-i18n="nav.email">Email</a>
+        <button class="lang-button" id="langToggle" type="button" aria-label="Switch language">عربي</button>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="availability"><span aria-hidden="true"></span><em data-i18n="hero.availability">Available for projects - Riyadh, Saudi Arabia</em></p>
+          <h1 id="hero-title" data-i18n="hero.name">Mazen Bassiso</h1>
+          <p class="hero-lede" data-i18n="hero.lede">
+            Senior Webmaster and Content Creator building the operating layer behind high-traffic websites,
+            marketplaces, payments, analytics, campaigns, and automation.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#contact" data-i18n="hero.cta">Start a project</a>
+            <a class="button secondary" href="mazen-bassiso-resume.txt" download data-i18n="hero.resume">Download resume</a>
+          </div>
+        </div>
+
+        <aside class="game-panel" id="game" aria-labelledby="game-title">
+          <div class="game-header">
+            <div>
+              <p class="section-kicker" data-i18n="game.kicker">Arcade game</p>
+              <h2 id="game-title" data-i18n="game.title">Stack Breaker</h2>
+            </div>
+            <div class="game-stats" aria-label="Game status">
+              <div>
+                <span id="gameScoreValue">0</span>
+                <small data-i18n="game.score">Score</small>
+              </div>
+              <div>
+                <span id="gameLivesValue">3</span>
+                <small data-i18n="game.lives">Lives</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="arcade-wrap">
+            <canvas id="arcadeGame" width="640" height="460" aria-label="Stack Breaker arcade game"></canvas>
+          </div>
+
+          <div class="game-toolbar">
+            <button class="button primary" id="startGame" type="button" data-i18n="game.start">Start</button>
+            <button class="button secondary" id="resetGame" type="button" data-i18n="game.reset">Reset</button>
+            <p class="game-note" data-i18n="game.note">Move the paddle. Break the stack. Catch powerups.</p>
+          </div>
+          <p class="sr-only" id="gameAnnouncement" aria-live="polite"></p>
+        </aside>
+
+        <dl class="signal-grid" aria-label="Career highlights">
+          <div>
+            <dt>8+</dt>
+            <dd data-i18n="signals.years">Years shipping web systems</dd>
+          </div>
+          <div>
+            <dt>10M+</dt>
+            <dd data-i18n="signals.views">Monthly content views handled</dd>
+          </div>
+          <div>
+            <dt>50%</dt>
+            <dd data-i18n="signals.speed">Faster load-time wins</dd>
+          </div>
+          <div>
+            <dt>25%</dt>
+            <dd data-i18n="signals.downtime">Downtime reduction work</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="ticker-band" aria-label="Core services">
+        <span data-i18n="ticker.wordpress">WordPress operations</span>
+        <span data-i18n="ticker.code">Custom PHP and JS</span>
+        <span data-i18n="ticker.payments">Payments and APIs</span>
+        <span data-i18n="ticker.security">Security hardening</span>
+        <span data-i18n="ticker.analytics">SEO and analytics</span>
+        <span data-i18n="ticker.automation">Automation flows</span>
+      </section>
+
+      <section class="section websites-section" id="websites" aria-labelledby="websites-title">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="websites.kicker">Websites</p>
+          <h2 id="websites-title" data-i18n="websites.title">Selected platforms I have built, operated, or improved.</h2>
+          <p data-i18n="websites.copy">
+            A mix of public sites, brand systems, ecommerce operations, private dashboards, and marketplace
+            work across Saudi and regional companies.
+          </p>
+        </div>
+
+        <div class="website-grid">
+          <article class="website-card featured">
+            <span class="site-type" data-i18n="websites.rose.type">Marketplace / Social platform</span>
+            <h3>Rose Holding</h3>
+            <p data-i18n="websites.rose.copy">
+              Full-scale WordPress marketplace work with custom code, mobile integrations, payments,
+              SEO, analytics, server operations, and performance improvements.
+            </p>
+            <div class="tag-row">
+              <span>WordPress</span>
+              <span data-i18n="tag.payments">Payments</span>
+              <span>APIs</span>
+              <span data-i18n="tag.scale">Scale</span>
+            </div>
+            <a href="https://rose-holding.com/" target="_blank" rel="noreferrer">rose-holding.com</a>
+          </article>
+
+          <article class="website-card">
+            <span class="site-type" data-i18n="websites.hamat.type">Brand portfolio / ecommerce ops</span>
+            <h3>Hamat Al Sahab Holding</h3>
+            <p data-i18n="websites.hamat.copy">
+              Ecommerce operations across multiple brands, payment gateway integrations, CRM connections,
+              campaign support, security hardening, and process automation.
+            </p>
+            <div class="tag-row">
+              <span data-i18n="tag.ecommerce">Ecommerce</span>
+              <span>CRM</span>
+              <span data-i18n="tag.automation">Automation</span>
+            </div>
+            <a href="https://hs.sa/" target="_blank" rel="noreferrer">hs.sa</a>
+          </article>
+
+          <article class="website-card">
+            <span class="site-type" data-i18n="websites.ohjiya.type">Consulting / digital systems</span>
+            <h3>Ohjiya Group</h3>
+            <p data-i18n="websites.ohjiya.copy">
+              WordPress, SaaS, ecommerce, CRM, CMS, LMS, SEO, ERP alignment, UI/UX journeys,
+              speed optimization, and team training.
+            </p>
+            <div class="tag-row">
+              <span>SaaS</span>
+              <span>CMS</span>
+              <span>LMS</span>
+              <span>SEO</span>
+            </div>
+            <a href="http://www.ohjiya.com/" target="_blank" rel="noreferrer">ohjiya.com</a>
+          </article>
+
+          <article class="website-card">
+            <span class="site-type" data-i18n="websites.bsaiso.type">WordPress ecommerce</span>
+            <h3>BSAISO Est.</h3>
+            <p data-i18n="websites.bsaiso.copy">
+              Launched a WordPress ecommerce platform and supported sales growth through digital marketing,
+              content operations, and ecommerce setup.
+            </p>
+            <div class="tag-row">
+              <span data-i18n="tag.launch">Launch</span>
+              <span data-i18n="tag.storefront">Storefront</span>
+              <span data-i18n="tag.marketing">Marketing</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="work.kicker">Proof</p>
+          <h2 id="work-title" data-i18n="work.title">A resume that behaves like an operations dashboard.</h2>
+          <p data-i18n="work.copy">
+            I work where content, code, traffic, revenue, and reliability meet. The goal is simple:
+            keep launches calm, measurable, fast, and ready to scale.
+          </p>
+        </div>
+
+        <div class="timeline" aria-label="Experience timeline">
+          <article>
+            <span class="time" data-i18n="work.rose.time">Jul 2024 - Present</span>
+            <h3 data-i18n="work.rose.title">Rose Holding - Senior Webmaster</h3>
+            <p data-i18n="work.rose.copy">
+              Own end-to-end digital platform operations across servers, APIs, payment gateways, mobile
+              integrations, SEO, analytics, marketplace performance, and custom WordPress code.
+            </p>
+          </article>
+          <article>
+            <span class="time" data-i18n="work.hamat.time">Jun 2023 - Jul 2024</span>
+            <h3 data-i18n="work.hamat.title">Hamat Al Sahab Holding - Webmaster</h3>
+            <p data-i18n="work.hamat.copy">
+              Ran ecommerce operations across multiple brands, improved security and performance, integrated
+              payment gateways, and automated lead flows with Zapier and Google tooling.
+            </p>
+          </article>
+          <article>
+            <span class="time" data-i18n="work.ohjiya.time">Mar 2019 - Aug 2023</span>
+            <h3 data-i18n="work.ohjiya.title">Ohjiya Group - IT Consultant / Webmaster</h3>
+            <p data-i18n="work.ohjiya.copy">
+              Delivered WordPress, SaaS, ecommerce, CRM, CMS, and LMS solutions with SEO, UX, ERP alignment,
+              speed optimization, planning, and team training.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section project-section" aria-labelledby="project-title">
+        <div class="section-heading compact">
+          <p class="section-kicker" data-i18n="projects.kicker">Case files</p>
+          <h2 id="project-title" data-i18n="projects.title">Three ways I usually create leverage.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card accent-coral">
+            <span>01</span>
+            <h3 data-i18n="projects.market.title">Marketplace WordPress</h3>
+            <p data-i18n="projects.market.copy">
+              High-scale marketplace builds with custom features, performance budgets, caching, and
+              maintainable admin flows.
+            </p>
+          </article>
+          <article class="project-card accent-teal">
+            <span>02</span>
+            <h3 data-i18n="projects.auto.title">Lead and Back-Office Automation</h3>
+            <p data-i18n="projects.auto.copy">
+              Zapier, Google tooling, CRM integrations, dashboards, alerts, and cleaner handoffs between
+              marketing, operations, and support.
+            </p>
+          </article>
+          <article class="project-card accent-yellow">
+            <span>03</span>
+            <h3 data-i18n="projects.speed.title">Speed and Reliability Program</h3>
+            <p data-i18n="projects.speed.copy">
+              Caching strategy, database tuning, monitoring, CDN setup, image plans, uptime habits, and
+              practical security hardening.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section media-section" id="media-kit" aria-labelledby="media-title">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="media.kicker">Media kit</p>
+          <h2 id="media-title" data-i18n="media.title">Collabs built like campaigns, not random posts.</h2>
+          <p data-i18n="media.copy">
+            Clear deliverables, trackable links, useful reporting, and web support when the campaign needs
+            more than content alone.
+          </p>
+        </div>
+
+        <div class="kit-layout">
+          <article class="kit-card">
+            <span class="price" data-i18n="media.creator.price">From SAR 1,500</span>
+            <h3 data-i18n="media.creator.title">Creator Feature</h3>
+            <p data-i18n="media.creator.copy">Short-form content, brand mention, story set, and campaign-ready CTA.</p>
+            <ul>
+              <li data-i18n="media.creator.li1">1 reel or short video</li>
+              <li data-i18n="media.creator.li2">3 story frames</li>
+              <li data-i18n="media.creator.li3">Performance notes</li>
+            </ul>
+          </article>
+          <article class="kit-card highlighted">
+            <span class="price" data-i18n="media.launch.price">From SAR 4,500</span>
+            <h3 data-i18n="media.launch.title">Launch Partner</h3>
+            <p data-i18n="media.launch.copy">Content plus the lightweight web layer that makes the campaign easier to convert.</p>
+            <ul>
+              <li data-i18n="media.launch.li1">Landing page or tracking link</li>
+              <li data-i18n="media.launch.li2">Analytics setup</li>
+              <li data-i18n="media.launch.li3">Post-campaign report</li>
+            </ul>
+          </article>
+          <article class="kit-card">
+            <span class="price" data-i18n="media.audit.price">From SAR 2,500</span>
+            <h3 data-i18n="media.audit.title">Website Audit</h3>
+            <p data-i18n="media.audit.copy">A practical review for speed, UX, SEO, analytics, and conversion bottlenecks.</p>
+            <ul>
+              <li data-i18n="media.audit.li1">Priority findings</li>
+              <li data-i18n="media.audit.li2">Fix roadmap</li>
+              <li data-i18n="media.audit.li3">Optional implementation</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="addon-strip" aria-label="Media kit add-ons">
+          <article><span>SAR 900</span><strong data-i18n="media.addon.reel">Extra reel</strong></article>
+          <article><span>SAR 1,200</span><strong data-i18n="media.addon.dashboard">Analytics dashboard</strong></article>
+          <article><span>SAR 2,000</span><strong data-i18n="media.addon.landing">Campaign landing page</strong></article>
+          <article><span>SAR 2,500</span><strong data-i18n="media.addon.event">Half-day event coverage</strong></article>
+        </div>
+      </section>
+
+      <section class="section insights-section" id="insights" aria-labelledby="insights-title">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="insights.kicker">Demographics</p>
+          <h2 id="insights-title" data-i18n="insights.title">Audience and campaign insights for brands.</h2>
+          <p data-i18n="insights.copy">
+            A clear snapshot for brand decisions: where the audience sits, what they care about,
+            and what gets reported after a collaboration.
+          </p>
+        </div>
+
+        <div class="insights-grid">
+          <article class="insight-card wide">
+            <h3 data-i18n="insights.fit.title">Audience Fit</h3>
+            <div class="insight-bars" aria-label="Audience fit">
+              <div><span data-i18n="insights.fit.gcc">Saudi Arabia + GCC</span><strong style="--value: 82%"></strong></div>
+              <div><span data-i18n="insights.fit.languages">Arabic + English</span><strong style="--value: 76%"></strong></div>
+              <div><span data-i18n="insights.fit.age">18-34 core reach</span><strong style="--value: 68%"></strong></div>
+              <div><span data-i18n="insights.fit.mobile">Mobile-first viewers</span><strong style="--value: 91%"></strong></div>
+            </div>
+          </article>
+
+          <article class="insight-card">
+            <h3 data-i18n="insights.verticals.title">Content Verticals</h3>
+            <p data-i18n="insights.verticals.copy">Technology, web tools, ecommerce, lifestyle, launches, hospitality, retail, events.</p>
+          </article>
+
+          <article class="insight-card">
+            <h3 data-i18n="insights.fitbrand.title">Best Brand Fit</h3>
+            <p data-i18n="insights.fitbrand.copy">Founders, marketing teams, ecommerce brands, restaurants, venues, SaaS, and retail launches.</p>
+          </article>
+
+          <article class="insight-card">
+            <h3 data-i18n="insights.report.title">Report Includes</h3>
+            <p data-i18n="insights.report.copy">Reach, views, watch time, saves, clicks, landing-page traffic, conversions, and next-step notes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section brands-section" aria-labelledby="brands-title">
+        <div class="section-heading compact">
+          <p class="section-kicker" data-i18n="brands.kicker">Collaborations</p>
+          <h2 id="brands-title" data-i18n="brands.title">Brand work can live beside engineering proof.</h2>
+        </div>
+
+        <div class="brand-wall" aria-label="Brand collaboration areas">
+          <span data-i18n="brands.hospitality">Hospitality</span>
+          <span data-i18n="brands.retail">Retail</span>
+          <span data-i18n="brands.ecommerce">Ecommerce</span>
+          <span data-i18n="brands.events">Events</span>
+          <span data-i18n="brands.tech">Tech</span>
+          <span data-i18n="brands.food">Food</span>
+        </div>
+      </section>
+
+      <section class="section stack-section" id="stack" aria-labelledby="stack-title">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="stack.kicker">Stack</p>
+          <h2 id="stack-title" data-i18n="stack.title">The tools are practical because the work is practical.</h2>
+        </div>
+
+        <div class="stack-grid">
+          <article><span>W</span><h3>WordPress</h3><p data-i18n="stack.wordpress">Custom themes, plugins, WooCommerce, admin workflows.</p></article>
+          <article><span>{}</span><h3>JavaScript</h3><p data-i18n="stack.js">Frontend behavior, tracking scripts, tooling, integrations.</p></article>
+          <article><span>PHP</span><h3>PHP</h3><p data-i18n="stack.php">Plugins, APIs, templates, business logic, backend fixes.</p></article>
+          <article><span>CL</span><h3 data-i18n="stack.cloud.title">Cloud</h3><p data-i18n="stack.cloud">Linux, AWS, Azure, CDN, uptime, backups, monitoring.</p></article>
+          <article><span>SEC</span><h3 data-i18n="stack.security.title">Security</h3><p data-i18n="stack.security">Hardening, scanning, access hygiene, incident prevention.</p></article>
+          <article><span>GA</span><h3 data-i18n="stack.analytics.title">Analytics</h3><p data-i18n="stack.analytics">GTM, GA, SEO reporting, funnels, dashboards.</p></article>
+          <article><span>PAY</span><h3 data-i18n="stack.payments.title">Payments</h3><p data-i18n="stack.payments">Gateways, checkout flows, API troubleshooting.</p></article>
+          <article><span>AUTO</span><h3 data-i18n="stack.automation.title">Automation</h3><p data-i18n="stack.automation">Zapier, scripts, Google tooling, CRM handoffs.</p></article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="contact.kicker">Contact</p>
+          <h2 id="contact-title" data-i18n="contact.title">Have a project, campaign, or messy web problem?</h2>
+          <p data-i18n="contact.copy">Send the shape of the thing. I will reply with next steps.</p>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label>
+            <span data-i18n="contact.name">Name</span>
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>
+            <span data-i18n="contact.email">Email</span>
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+          <label>
+            <span data-i18n="contact.message">Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="button primary" type="submit" data-i18n="contact.send">Send message</button>
+          <a class="direct-email" href="mailto:mazen.bassiso@gmail.com">mazen.bassiso@gmail.com</a>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><span data-i18n="footer.copy">(c)</span> <span id="year"></span> <span data-i18n="footer.name">Mazen Bassiso - Riyadh, Saudi Arabia</span></p>
+      <a href="#top" data-i18n="footer.top">Back to top</a>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

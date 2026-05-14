@@ -1,0 +1,55 @@
+Mazen Bassiso
+Senior Webmaster and Content Creator
+Riyadh, Saudi Arabia
+mazen.bassiso@gmail.com
++966537751006
+
+Profile
+Senior webmaster with 8+ years of experience building and operating high-traffic websites,
+marketplaces, ecommerce platforms, content systems, automations, analytics, payments, and server
+operations. Comfortable working end to end across WordPress, PHP, JavaScript, APIs, SEO,
+security hardening, cloud hosting, and campaign execution.
+
+Selected Highlights
+- 10M+ monthly content views handled
+- 50% faster load-time wins
+- 25% downtime reduction work
+- 40% engagement improvement work
+
+Experience
+Rose Holding - Senior Webmaster
+Jul 2024 - Present, Riyadh
+- Own end-to-end digital platform operations across servers, APIs, payment gateways, mobile
+  integrations, SEO, analytics, and marketplace performance.
+- Built and optimized a full-scale WordPress marketplace with custom code for scalability and UX.
+- Drove reliability and speed initiatives through caching, database tuning, CDN strategy, and image
+  optimization.
+
+Hamat Al Sahab Holding - Webmaster
+Jun 2023 - Jul 2024
+- Ran ecommerce operations across multiple brands and partnered with marketing and operations to
+  ship campaigns reliably.
+- Improved security and performance through vulnerability checks, hardening, and optimization.
+- Integrated payment gateways, Microsoft Dynamics CRM, automated lead flows, and Google tooling.
+
+Ohjiya Group - IT Consultant / Webmaster
+Mar 2019 - Aug 2023
+- Delivered WordPress, SaaS, ecommerce, CRM, CMS, and LMS solutions.
+- Worked across SEO, ERP alignment, speed optimization, user journeys, UI/UX, planning, and staff
+  training.
+
+Education
+Asia Pacific University (APU/APIIT)
+BSc in IT, Information Systems Security
+2013 - 2017
+
+Certifications
+- Google Ads Search
+- Google Analytics Individual Qualification
+- Cisco Introduction to Cybersecurity
+- Cisco Introduction to IoT
+- Google Creative Certification
+
+Core Stack
+WordPress, PHP, JavaScript, WooCommerce, Linux, AWS, Azure, CDN, GTM, GA, SEO, Zapier,
+Google tooling, payment gateways, APIs, CRM integrations, security scanning, performance tuning.
