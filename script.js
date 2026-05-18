@@ -72,6 +72,18 @@
       "websites.kicker": "Websites",
       "websites.title": "Selected platforms I have built, operated, or improved.",
       "websites.copy": "A mix of public sites, brand systems, ecommerce operations, private dashboards, and marketplace work across Saudi and regional companies.",
+      "websites.diva.type": "Featured ecommerce platform",
+      "websites.diva.copy": "Ecommerce website work focused on product presentation, shopping flow, performance, and brand experience.",
+      "websites.naqi.type": "Highlighted brand platform",
+      "websites.naqi.copy": "Website operations and improvements for a public-facing brand platform with clean structure and reliable browsing.",
+      "websites.alkhayal.type": "Brand website",
+      "websites.alkhayal.copy": "Website work across structure, content presentation, responsive browsing, and maintenance.",
+      "websites.eqlaa.type": "Digital platform",
+      "websites.eqlaa.copy": "Platform support and website improvements with attention to usability, speed, and clear navigation.",
+      "websites.zawaya.type": "Hospitality / venue website",
+      "websites.zawaya.copy": "Website work for a visual brand experience with responsive sections, inquiry paths, and campaign-ready pages.",
+      "websites.miran.type": "Hospitality / brand website",
+      "websites.miran.copy": "Website support for a premium brand presence with polished layout, contact paths, and operational upkeep.",
       "websites.rose.type": "Marketplace / Social platform",
       "websites.rose.copy": "Full-scale WordPress marketplace work with custom code, mobile integrations, payments, SEO, analytics, server operations, and performance improvements.",
       "websites.hamat.type": "Brand portfolio / ecommerce ops",
@@ -87,6 +99,19 @@
       "tag.launch": "Launch",
       "tag.storefront": "Storefront",
       "tag.marketing": "Marketing",
+      "tag.performance": "Performance",
+      "tag.operations": "Operations",
+      "tag.website": "Website",
+      "tag.content": "Content",
+      "tag.mobile": "Mobile",
+      "tag.platform": "Platform",
+      "tag.speed": "Speed",
+      "tag.brand": "Brand",
+      "tag.responsive": "Responsive",
+      "tag.campaigns": "Campaigns",
+      "tag.premium": "Premium",
+      "tag.contactPath": "Contact path",
+      "tag.upkeep": "Upkeep",
       "work.kicker": "Proof",
       "work.title": "A resume that behaves like an operations dashboard.",
       "work.copy": "I work where content, code, traffic, revenue, and reliability meet. The goal is simple: keep launches calm, measurable, fast, and ready to scale.",
@@ -110,19 +135,31 @@
       "media.kicker": "Media kit",
       "media.title": "Collabs built like campaigns, not random posts.",
       "media.copy": "Clear deliverables, trackable links, useful reporting, and web support when the campaign needs more than content alone.",
-      "media.creator.price": "From SAR 1,500",
+      "media.creator.price": "From SAR 2,000",
       "media.creator.title": "Creator Feature",
       "media.creator.copy": "Short-form content, brand mention, story set, and campaign-ready CTA.",
       "media.creator.li1": "1 reel or short video",
       "media.creator.li2": "3 story frames",
       "media.creator.li3": "Performance notes",
-      "media.launch.price": "From SAR 4,500",
+      "media.review.price": "From SAR 3,500",
+      "media.review.title": "Product Review",
+      "media.review.copy": "A clear, honest product review focused on use cases, benefits, objections, and audience trust.",
+      "media.review.li1": "Product testing and talking points",
+      "media.review.li2": "1 review reel or video",
+      "media.review.li3": "Story follow-up with CTA",
+      "media.unbox.price": "From SAR 3,000",
+      "media.unbox.title": "Unboxing Feature",
+      "media.unbox.copy": "A first-look unboxing experience that makes the product feel tangible, visual, and easy to remember.",
+      "media.unbox.li1": "Unboxing reel or short video",
+      "media.unbox.li2": "Product detail shots",
+      "media.unbox.li3": "Story set with link or mention",
+      "media.launch.price": "From SAR 6,000",
       "media.launch.title": "Launch Partner",
       "media.launch.copy": "Content plus the lightweight web layer that makes the campaign easier to convert.",
       "media.launch.li1": "Landing page or tracking link",
       "media.launch.li2": "Analytics setup",
       "media.launch.li3": "Post-campaign report",
-      "media.audit.price": "From SAR 2,500",
+      "media.audit.price": "From SAR 3,500",
       "media.audit.title": "Website Audit",
       "media.audit.copy": "A practical review for speed, UX, SEO, analytics, and conversion bottlenecks.",
       "media.audit.li1": "Priority findings",
@@ -148,6 +185,8 @@
       "insights.report.copy": "Reach, views, watch time, saves, clicks, landing-page traffic, conversions, and next-step notes.",
       "brands.kicker": "Collaborations",
       "brands.title": "Brand work can live beside engineering proof.",
+      "brands.productReviews": "Product Reviews",
+      "brands.unboxing": "Unboxing",
       "brands.hospitality": "Hospitality",
       "brands.retail": "Retail",
       "brands.ecommerce": "Ecommerce",
@@ -175,7 +214,11 @@
       "contact.name": "Name",
       "contact.email": "Email",
       "contact.message": "Message",
+      "contact.namePlaceholder": "Your name",
+      "contact.emailPlaceholder": "you@example.com",
+      "contact.messagePlaceholder": "Tell me about the project or campaign.",
       "contact.send": "Send message",
+      "contact.whatsapp": "WhatsApp me",
       "footer.copy": "(c)",
       "footer.name": "Mazen Bassiso - Riyadh, Saudi Arabia",
       "footer.top": "Back to top"
@@ -245,6 +288,18 @@
       "websites.kicker": "المواقع",
       "websites.title": "منصات مختارة قمت ببنائها أو تشغيلها أو تحسينها.",
       "websites.copy": "مزيج من مواقع عامة، أنظمة علامات، تشغيل متاجر، لوحات خاصة، ومنصات سوقية لشركات سعودية وإقليمية.",
+      "websites.diva.type": "منصة تجارة إلكترونية مميزة",
+      "websites.diva.copy": "عمل على موقع تجارة إلكترونية يركز على عرض المنتجات، تجربة الشراء، الأداء، وحضور العلامة.",
+      "websites.naqi.type": "منصة علامة بارزة",
+      "websites.naqi.copy": "تشغيل وتحسينات لموقع علامة عام بهيكل واضح وتجربة تصفح موثوقة.",
+      "websites.alkhayal.type": "موقع علامة تجارية",
+      "websites.alkhayal.copy": "عمل على هيكلة الموقع، عرض المحتوى، التصفح المتجاوب، والصيانة.",
+      "websites.eqlaa.type": "منصة رقمية",
+      "websites.eqlaa.copy": "دعم منصة وتحسينات موقع مع اهتمام بالاستخدام، السرعة، ووضوح التنقل.",
+      "websites.zawaya.type": "موقع ضيافة / وجهة",
+      "websites.zawaya.copy": "عمل على تجربة علامة مرئية مع أقسام متجاوبة، مسارات تواصل، وصفحات جاهزة للحملات.",
+      "websites.miran.type": "موقع ضيافة / علامة",
+      "websites.miran.copy": "دعم موقع لحضور علامة راقٍ مع تصميم مصقول، مسارات تواصل، ومتابعة تشغيلية.",
       "websites.rose.type": "سوق / منصة اجتماعية",
       "websites.rose.copy": "عمل على سوق ووردبريس كامل مع كود مخصص، تكاملات جوال، مدفوعات، SEO، تحليلات، تشغيل خوادم، وتحسين أداء.",
       "websites.hamat.type": "محفظة علامات / تشغيل متاجر",
@@ -260,6 +315,19 @@
       "tag.launch": "إطلاق",
       "tag.storefront": "واجهة متجر",
       "tag.marketing": "تسويق",
+      "tag.performance": "أداء",
+      "tag.operations": "تشغيل",
+      "tag.website": "موقع",
+      "tag.content": "محتوى",
+      "tag.mobile": "جوال",
+      "tag.platform": "منصة",
+      "tag.speed": "سرعة",
+      "tag.brand": "علامة",
+      "tag.responsive": "متجاوب",
+      "tag.campaigns": "حملات",
+      "tag.premium": "فاخر",
+      "tag.contactPath": "مسار تواصل",
+      "tag.upkeep": "متابعة",
       "work.kicker": "الدليل",
       "work.title": "سيرة ذاتية تعمل كلوحة تشغيل.",
       "work.copy": "أعمل عند نقطة التقاء المحتوى، الكود، الزيارات، الإيرادات، والاعتمادية. الهدف بسيط: إطلاقات هادئة، قابلة للقياس، سريعة، وجاهزة للتوسع.",
@@ -283,19 +351,31 @@
       "media.kicker": "الميديا كت",
       "media.title": "تعاونات مبنية كحملات، وليس منشورات عشوائية.",
       "media.copy": "مخرجات واضحة، روابط قابلة للتتبع، تقارير مفيدة، ودعم ويب عندما تحتاج الحملة أكثر من محتوى فقط.",
-      "media.creator.price": "ابتداءً من 1,500 ريال",
-      "media.creator.title": "ظهور صانع محتوى",
-      "media.creator.copy": "محتوى قصير، ذكر للعلامة، مجموعة ستوري، ودعوة إجراء جاهزة للحملة.",
+      "media.creator.price": "ابتداءً من 2,000 ريال",
+      "media.creator.title": "ظهور إعلاني",
+      "media.creator.copy": "محتوى قصير، ذكر للعلامة، مجموعة ستوري، ودعوة إجراء واضحة للحملة.",
       "media.creator.li1": "ريل واحد أو فيديو قصير",
       "media.creator.li2": "3 إطارات ستوري",
       "media.creator.li3": "ملاحظات أداء",
-      "media.launch.price": "ابتداءً من 4,500 ريال",
+      "media.review.price": "ابتداءً من 3,500 ريال",
+      "media.review.title": "مراجعة منتج",
+      "media.review.copy": "مراجعة واضحة وصادقة تركز على الاستخدامات، الفوائد، الاعتراضات المحتملة، وبناء ثقة الجمهور.",
+      "media.review.li1": "تجربة المنتج وتحديد نقاط الحديث",
+      "media.review.li2": "ريل أو فيديو مراجعة واحد",
+      "media.review.li3": "متابعة ستوري مع دعوة إجراء",
+      "media.unbox.price": "ابتداءً من 3,000 ريال",
+      "media.unbox.title": "تجربة فتح الصندوق",
+      "media.unbox.copy": "تجربة أولية تعرض المنتج بشكل بصري وملموس وسهل التذكر.",
+      "media.unbox.li1": "ريل أو فيديو قصير لفتح الصندوق",
+      "media.unbox.li2": "لقطات تفصيلية للمنتج",
+      "media.unbox.li3": "مجموعة ستوري مع رابط أو منشن",
+      "media.launch.price": "ابتداءً من 6,000 ريال",
       "media.launch.title": "شريك إطلاق",
       "media.launch.copy": "محتوى مع طبقة ويب خفيفة تجعل الحملة أسهل في التحويل.",
       "media.launch.li1": "صفحة هبوط أو رابط تتبع",
       "media.launch.li2": "إعداد التحليلات",
       "media.launch.li3": "تقرير ما بعد الحملة",
-      "media.audit.price": "ابتداءً من 2,500 ريال",
+      "media.audit.price": "ابتداءً من 3,500 ريال",
       "media.audit.title": "تدقيق موقع",
       "media.audit.copy": "مراجعة عملية للسرعة وتجربة المستخدم وSEO والتحليلات ونقاط ضعف التحويل.",
       "media.audit.li1": "أولويات واضحة",
@@ -320,7 +400,9 @@
       "insights.report.title": "يشمل التقرير",
       "insights.report.copy": "الوصول، المشاهدات، وقت المشاهدة، الحفظ، النقرات، زيارات صفحة الهبوط، التحويلات، وملاحظات الخطوة التالية.",
       "brands.kicker": "تعاونات",
-      "brands.title": "يمكن لعمل العلامات أن يعيش بجانب الدليل التقني.",
+      "brands.title": "تعاونات محتوى واضحة بجانب خبرة تقنية قابلة للقياس.",
+      "brands.productReviews": "مراجعات المنتجات",
+      "brands.unboxing": "فتح الصندوق",
       "brands.hospitality": "الضيافة",
       "brands.retail": "التجزئة",
       "brands.ecommerce": "المتاجر",
@@ -348,7 +430,11 @@
       "contact.name": "الاسم",
       "contact.email": "البريد الإلكتروني",
       "contact.message": "الرسالة",
+      "contact.namePlaceholder": "اسمك",
+      "contact.emailPlaceholder": "you@example.com",
+      "contact.messagePlaceholder": "اكتب فكرة المشروع أو الحملة.",
       "contact.send": "إرسال الرسالة",
+      "contact.whatsapp": "راسلني على واتساب",
       "footer.copy": "(c)",
       "footer.name": "مازن بسيسو - الرياض، السعودية",
       "footer.top": "العودة للأعلى"
@@ -419,6 +505,10 @@
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       element.textContent = t(element.dataset.i18n);
+    });
+
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+      element.setAttribute("placeholder", t(element.dataset.i18nPlaceholder));
     });
 
     updateArcadeLabels();
@@ -757,6 +847,19 @@
     drawArcade();
   }
 
+  function isTypingTarget(target) {
+    return target instanceof Element && Boolean(target.closest("input, textarea, select, [contenteditable='true']"));
+  }
+
+  function isActionTarget(target) {
+    return target instanceof Element && Boolean(target.closest("button, a, input, textarea, select, [contenteditable='true']"));
+  }
+
+  function isGameVisible() {
+    const rect = document.getElementById("game").getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom > 0;
+  }
+
   themeToggle.addEventListener("click", () => {
     const nextTheme = body.dataset.theme === "dark" ? "light" : "dark";
     if (nextTheme === "dark") {
@@ -783,12 +886,14 @@
   });
 
   window.addEventListener("keydown", (event) => {
+    if (isTypingTarget(event.target) || !isGameVisible()) return;
+
     const key = event.key.length === 1 ? event.key.toLowerCase() : event.key;
     if (["ArrowLeft", "ArrowRight", "a", "d"].includes(key)) {
       arcade.keys.add(key);
       event.preventDefault();
     }
-    if (event.key === " ") {
+    if (event.key === " " && !isActionTarget(event.target)) {
       toggleArcade();
       event.preventDefault();
     }
@@ -805,6 +910,23 @@
   arcadeCanvas.addEventListener("pointerdown", (event) => {
     setPaddleFromClientX(event.clientX);
     if (!arcade.running) toggleArcade();
+  });
+
+  const scrollToTop = (event) => {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"
+    });
+    if (window.location.hash) {
+      history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+    }
+  };
+
+  document.querySelectorAll('[data-scroll-top], a[href="#top"]').forEach((link) => {
+    link.addEventListener("click", (event) => {
+      scrollToTop(event);
+    });
   });
 
   document.getElementById("year").textContent = new Date().getFullYear();

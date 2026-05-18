@@ -33,6 +33,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 112px;
 }
 
 body {
@@ -678,6 +679,7 @@ h3 {
 
 .section {
   padding: clamp(60px, 8vw, 110px) clamp(16px, 4vw, 48px);
+  scroll-margin-top: 112px;
 }
 
 .section-heading {
@@ -773,6 +775,21 @@ h3 {
 .website-card.featured p,
 .website-card.featured .site-type {
   color: #343434;
+}
+
+.website-card.highlighted-site {
+  position: relative;
+  box-shadow: 6px 6px 0 var(--line);
+}
+
+.website-card.highlighted-site::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 8px;
+  background: linear-gradient(90deg, var(--teal), var(--yellow), var(--coral));
+  border-bottom: 2px solid var(--line);
+  border-radius: 6px 6px 0 0;
 }
 
 .site-type,
@@ -875,7 +892,7 @@ body[data-theme="dark"] .media-section {
 
 .kit-layout {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
 }
 
@@ -1000,7 +1017,7 @@ body[data-theme="dark"] .media-section {
 
 .brand-wall {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -1044,6 +1061,16 @@ body[data-theme="dark"] .media-section {
   background: var(--paper);
 }
 
+.brand-wall span:nth-child(7) {
+  background: var(--coral);
+  color: #111315;
+}
+
+.brand-wall span:nth-child(8) {
+  background: var(--yellow);
+  color: #111315;
+}
+
 .stack-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1069,8 +1096,8 @@ body[data-theme="dark"] .media-section {
 }
 
 .contact-section {
-  background: var(--ink);
-  color: var(--bg);
+  background: #111315;
+  color: #f7fafc;
 }
 
 .contact-section .section-kicker,
@@ -1095,7 +1122,7 @@ body[data-theme="dark"] .media-section {
 .contact-form textarea {
   width: 100%;
   padding: 13px 14px;
-  background: var(--bg);
+  background: #f7fafc;
   color: #111315;
   border: 2px solid #111315;
   border-radius: var(--radius);
@@ -1111,6 +1138,21 @@ body[data-theme="dark"] .media-section {
   font-weight: 850;
 }
 
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 12px 18px;
+  background: #25d366;
+  color: #111315;
+  border: 2px solid #111315;
+  border-radius: var(--radius);
+  box-shadow: 4px 4px 0 #111315;
+  font-weight: 950;
+  text-decoration: none;
+}
+
 .site-footer {
   display: flex;
   flex-wrap: wrap;
@@ -1124,6 +1166,20 @@ body[data-theme="dark"] .media-section {
 
 .site-footer p {
   margin: 0;
+}
+
+.back-to-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 8px 12px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 3px 3px 0 var(--line);
+  font-weight: 950;
 }
 
 :focus-visible {
